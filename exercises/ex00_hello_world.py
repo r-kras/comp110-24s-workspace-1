@@ -1,4 +1,4 @@
-"""My 'first' COMP110 website."""
+"""My first exercise in CAMP110!"""
 
 __author__ = "730699792"
 
@@ -8,9 +8,7 @@ def greet(name: str) -> str:
     return "Hello, " + name + "!"
 
 
-greet(name="Campers")
-greet(name="Kris")
-
-
+# greet(name="Campers")
+# greet(name="Kris")
 if __name__ == "__main__":
     print(greet(name=input("What is your name? ")))
